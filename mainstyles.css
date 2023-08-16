@@ -1,0 +1,351 @@
+/*img {
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+}
+*/
+body {
+    background-color: lightblue;
+   /* background-position: center center; */
+    font-family: sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2vw;
+    padding: 0.1vh 0.2vw; 
+  }
+
+  .proposal {
+    background-image: url("Proposal.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    
+    /*display: block;*/
+    width: auto;
+    height: 100vh;
+  }
+
+  .firstyear {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    background-color: purple;
+    font-size: 2vw;
+  }
+
+  .secondyear {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: purple;
+    font-size: 2vw;
+  }
+
+  .thirdyear {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    background-color: purple;
+    font-size: 2vw;
+  }
+
+  .fourthyear {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    background-color: purple;
+    font-size: 2vw;
+  }
+
+  .fifthyear {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background-color: purple;
+    font-size: 2vw;
+  }
+
+  .sixthyear {
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    background-color: purple;
+    font-size: 2vw;
+  }
+
+  .oakland{
+    width:45%;
+    height:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .snow{
+    display: flex;
+    justify-content: center;
+  }
+
+.snowman{
+  display: flex;
+  flex-flow: column;
+}
+
+  .skating{
+    rotate: -90deg;
+    width: 700px;
+    height: 600px;
+    margin-top: 10%;
+  }
+
+  .snowfig{
+    margin-top: 10%;
+    text-align: center;
+  }
+ 
+
+  .recuerdoboy{
+    width: 30%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .graduation{
+    width: 30%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .links {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .home {
+    text-align: left;
+    display: inline-block;
+    width: 75%;
+    /*word-spacing: -2000px;*/
+  }
+  
+  .nextyear {
+    text-align: right;
+    display: inline-block;
+    width: 25%;
+
+  }
+
+  .mexicocity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .reik {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .shareholders {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .disney {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .europe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .portland {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .picnic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  .tahoe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    
+  }
+
+  figure {
+    display: table;
+  }
+
+  .peru {
+    width: 400px;
+    height: 400px;
+    transition: all 1s;
+  }
+
+  .peru:hover {
+    transform:scale(1.5);
+  }
+
+  .friends {
+    width: 400px;
+    height: 400px;
+    transition: all 1s;
+  }
+
+  .friends:hover {
+    transform: skew(25deg);
+  }
+
+  .axe {
+    width: 400px;
+    height: 400px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 15%;
+    justify-content: center;
+  }
+
+  .container2 {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    gap: 35px 0;
+    height: 1000px;
+    align-content: space-around;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    margin-top: 0px;
+  }
+
+  .friendfig {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+  }
+
+  .friendcap {
+    align-self: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+
+  .paso {
+    width: 400px;
+    height: 400px;
+  }
+
+  .pasocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .proposaltahoe {
+    width:45%;
+    height:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .proposalfig {
+    display: table-caption;
+    caption-side: bottom;
+    margin-top: 0px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;;
+  }
+
+  .bdays {
+    width: 400px;
+    height: 450px;
+  }
+
+  .container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .summerfun {
+    width: 400px;
+    height: 500px;
+  }
+
+  .tahoe2con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tahoe2 {
+    width: 400px;
+    height: 450px;
+    margin: 40px;
+  }
